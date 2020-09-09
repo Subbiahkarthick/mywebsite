@@ -1,0 +1,273 @@
+.redbg {
+  background-color: red;
+}
+.bluebg {
+  background-color: blue;
+}
+.brownbg {
+  background-color: brown;
+}
+.orangebg {
+  background-color: orange;
+}
+.greenbg {
+  background-color: green;
+}
+.blackbg {
+  background-color: black;
+}
+.whitebg {
+  background-color: white;
+}
+.whitefont {
+  color: white;
+}
+.headerbg {
+  background-color: hsl(193, 100%, 96%);
+}
+.pinkbuttonbg {
+  background-color: hsl(322, 100%, 66%);
+}
+.violetbg {
+  background-color: violet;
+}
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 500px;
+}
+.navbar {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+.logobox {
+  width: 40%;
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.freetrial {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  width: 20%;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+  padding-top: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px whitesmoke;
+}
+.mockup {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+}
+.mockupdesc {
+  width: 40%;
+  height: 350px;
+  margin-left: 30px;
+}
+.heading {
+  width: 60%;
+  height: 100px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.description {
+  width: 80%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.sale {
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+.salebutton {
+  width: 50%;
+  height: 70px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.salebutton:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px pink;
+}
+.mockups {
+  width: 60%;
+  height: 350px;
+}
+.mockupimg {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+}
+.communities {
+  width: 100%;
+  margin-top: 20px;
+}
+.categories {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.category1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 10px ghostwhite;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content {
+  width: 60%;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 30px 30px;
+}
+.types {
+  width: 80%;
+  height: 50px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.desc {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category1image {
+  width: 60%;
+  height: 300px;
+  margin: 0 auto;
+}
+.image {
+  width: 80%;
+  height: 250px;
+  margin: 20px auto;
+}
+.category2 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px 10px ghostwhite;
+}
+.startprogress {
+  width: 60%;
+  height: 200px;
+  margin: 30px auto;
+  border-radius: 30px;
+  box-shadow: 0 0 5px 5px ghostwhite;
+}
+.startmessage {
+  width: 100%;
+  height: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.communitybox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  width: 100%;
+}
+.contact {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.contactinfo {
+  width: 55%;
+  height: 200px;
+  margin-top: 50px;
+}
+.searchlinks {
+  width: 10%;
+  height: 100px;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.whatwedo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.socialmediaicons {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.insta {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.location {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.margin {
+  margin-top: 50px;
+}
+.locater {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.locationdesc {
+  width: 60%;
+  height: 60px;
+}
+.cpy {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+}
+.copyrights {
+  width: 25%;
+  height: 30px;
+  margin-left: 75%;
+  font-size: 15px;
+}
